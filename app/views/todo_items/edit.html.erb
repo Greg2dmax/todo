@@ -1,0 +1,4 @@
+<h1>Editing Todo Item</h1>
+<%= link_to 'Show', @todo_item  , class: "sub-todo"%> |
+<%= link_to 'Back', todo_items_path , class: "sub-todo" %>
+<%= render 'form', todo_item: @todo_item %>
